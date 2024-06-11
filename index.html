@@ -10,7 +10,7 @@
   <script>
     document.write(window.navigator.userAgent)
     document.write('<br />- - -<br />')
-    document.write(window.Telegram.WebView.initParams.tgWebAppPlatform)
+    document.write(JSON.stringify(window.Telegram.WebView.initParams.tgWebAppPlatform))
   </script>
 </body>
 </html>
